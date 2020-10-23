@@ -7,12 +7,27 @@ header {
   text-align: center;
 }
 h1 {
-	color: #FF0000;
+	color: #000000;
 	text-transform: uppercase;
-	font-family: Impact;
+	font-family: ITC Benguiat W01;
+  text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -2px;
+    font-size: 70px;
+	margin-top: 20px;
+	margin-bottom: 1px;
+	padding-top: -15px;
 }
 p {
+	font-family: Roboto;
 	color: #FFFFFF;
+	margin: 5px;
+	padding-top: -15px;
+    font-size: 20px;
 }
 ul {
 text-align: center;
@@ -28,4 +43,8 @@ li, a {
   color: white;
   text-align: center;
   background-color: #000000;
+}
+body {
+	background-image: url('img/background.png');
+    background-size: cover;
 }
