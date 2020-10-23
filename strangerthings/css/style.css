@@ -45,6 +45,7 @@ li, a {
   background-color: #000000;
 }
 body {
-	background-image: url('img/stranger_img.png');
+	background: url('img/stranger_img.png') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 }
