@@ -1,0 +1,31 @@
+header {
+	background-color: #000000;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -22px;	
+	padding: 5px;
+  text-align: center;
+}
+h1 {
+	color: #FF0000;
+	text-transform: uppercase;
+	font-family: Impact;
+}
+p {
+	color: #FFFFFF;
+}
+ul {
+text-align: center;
+}
+li {
+  display: inline;
+  margin: 14px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #FF0000;
+}
+li, a {
+  color: white;
+  text-align: center;
+  background-color: #000000;
+}
