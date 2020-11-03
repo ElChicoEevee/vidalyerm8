@@ -1,3 +1,16 @@
+* {
+	font-family: arial;
+	box-sizing: border-box;
+}
+li{
+	list-style-type: none;
+	padding: 10px;
+}
+li div * {
+	display: inline-block;
+	width: 300px;
+	margin-top:5px;
+}
 li:hover {
 	background-color: #FF9;
 }
@@ -7,28 +20,21 @@ span.requerido {
 input:hover, select:hover {
 	border-color: #E6B700;
 }
-li {
-	width: 200px;
-	height: 175px;
-}
 input#nombre {
 	width: 125px;
 }
-li, span, input, label, p {
-	display: inline-block;
+.izquierda {
+	float: left;
+	width: 350px;
+	max-height: 400px;
 }
-p.ayuda {
-	display: none;
-}
-li.izquierda {
-	 float: left;
-}
-li.derecha {
+.derecha {
 	float: right;
+	width: 350px;
+	max-height: 400px;
 }
-div#contenedor {
-	width: 500px;
-	
+#contenedor {
+	width: 900px;	
 }
 label#minititulo {
 	color: gray;
@@ -37,7 +43,14 @@ label#minititulo {
 label.titulo {
   font-weight: bold;
 }
-li.alta {
-	width: auto;
-	height: auto;
+ul li p.ayuda {
+	visibility: hidden;
 }
+ul li:hover p.ayuda {
+  visibility: visible;
+}
+.alta {
+	clear: both;
+	float: right;
+}
+	
