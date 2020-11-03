@@ -1,0 +1,49 @@
+#titulo {
+	color: teal;
+}
+span.destacado {
+	color: orange;
+}
+#subtitulo {	
+	color: blue;
+}
+span.especial {
+	color: purple;
+}
+th.especial {
+	color: orange;
+}
+caption{
+	color: blue;
+}
+th {
+	color: red;
+}
+td {
+	color: green;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+/*Combinadores*/
+p > strong {
+	color: red;
+}
+p > a {
+	color: red;
+	text-decoration: underline;
+}
+p > a > em {
+	color: blue
+}
+td > strong {
+	color: orange;
+}
+div > p {
+	color: olive;
+}
+div > p > span#especial {
+	color: fuchsia;
+}
