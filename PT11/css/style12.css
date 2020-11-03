@@ -1,7 +1,43 @@
-a:hover {
-	background-color: #CC0000;
-	color: #FFFFFF;
+li:hover {
+	background-color: #FF9;
 }
-a {
-	color: #CC0000;
+span.requerido {
+	color: #FF0000
+}
+input:hover, select:hover {
+	border-color: #E6B700;
+}
+li {
+	width: 200px;
+	height: 175px;
+}
+input#nombre {
+	width: 125px;
+}
+li, span, input, label, p {
+	display: inline-block;
+}
+p.ayuda {
+	display: none;
+}
+li.izquierda {
+	 float: left;
+}
+li.derecha {
+	float: right;
+}
+div#contenedor {
+	width: 500px;
+	
+}
+label#minititulo {
+	color: gray;
+	font-size: 14px;
+}
+label.titulo {
+  font-weight: bold;
+}
+li.alta {
+	width: auto;
+	height: auto;
 }
