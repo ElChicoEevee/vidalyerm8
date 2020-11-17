@@ -1,0 +1,13 @@
+C:.
+├───contenido
+│   ├───imagenes
+│   ├───otrasimagenes
+│   │   └───masimagenes
+│   └───principal
+├───css
+├───imagenes
+│   └───imagenes
+│       └───imagenes
+├───principal
+└───vacio
+    └───vacio
