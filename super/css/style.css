@@ -1,6 +1,0 @@
-img:hover {
-	filter: invert(100%);
-}	
-img:active {
-	filter: blur(5px);
-}	
